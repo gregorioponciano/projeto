@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 * {                  margin: 0px;
-                     padding: 0px;
-                    
+                     padding: 0px;                   
 }
 
 html, body {         height: 100vh;
@@ -10,9 +9,7 @@ html, body {         height: 100vh;
                      background: url(imagens/fundo-madeira.jpg);   
                       background-size: cover;
                       background-color: black;
-                      background-position: center center;
-
-                      
+                      background-position: center center;                      
 }
 
 div {                 text-align: right;
@@ -26,9 +23,7 @@ div {                 text-align: right;
                       border-radius: 50%;
                       margin: 10px;
                       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
-                      box-sizing: border-box; /* para borda hover fazer parte da caixa */
-    
-    
+                      box-sizing: border-box; /* para borda hover fazer parte da caixa */   
 }
 
 header > div > a > img:hover  { border: 2px solid rgba(255, 255, 255, 0.699);
@@ -38,44 +33,27 @@ header > div > a > img:hover  { border: 2px solid rgba(255, 255, 255, 0.699);
                           
 }
 
-
-header {              position: relative;
-                     
+header {              position: relative;                    
                       height: 100vh;
                       width: 100vw;
-                      
-
-
 }
-
-
 
 iframe {              height: 455px; 
                       padding-top: 76px;
                       width: 246px;
                       padding-left: 21px;
-                      
-
-
 }
-
-
 
 header > section.telefone { position: absolute;
                             top: 50%;
                             left: 50%;
-                            transform: translate(-50%, -50%);
-                                 
+                            transform: translate(-50%, -50%);                               
                             background: url(imagens/frame-iphone.png);
                             background-repeat: no-repeat;
                             margin: auto;
                             background-size: 96%;
                             height: 627px;
-                            width: 300px;
-                            
-
-
-                       
+                            width: 300px;                     
 }
 
 
