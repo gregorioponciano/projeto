@@ -12,8 +12,13 @@ html, body {         height: 100dvh;
                       background-position: center center;                      
 }
 
-header {
-                    height: 100dvh;
+header {              position: relative;                    
+                      height: 100dvh;
+                      width: 100vw;
+}
+
+.redes-sociais {
+                        padding-top: 40px;
 }
 
 div {                 text-align: right;
@@ -37,10 +42,7 @@ header > div > a > img:hover  { border: 2px solid rgba(255, 255, 255, 0.699);
                           
 }
 
-header {              position: relative;                    
-                      height: 100vh;
-                      width: 100vw;
-}
+
 
 iframe {              height: 455px; 
                       padding-top: 76px;
