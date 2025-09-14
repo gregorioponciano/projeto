@@ -10,15 +10,13 @@ img { width: 246px;
       
 }
 
-div {
-    text-align: center;
-    background-color: red;
-    
-    
-}
-
 a { color: white;
-    
+    background-color: blueviolet;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
     padding: 5px;
     
 
